@@ -4,7 +4,7 @@ function cari_mean($arr){
 //kode di sini
 	$tampung="";
 	$x=count($arr);
-	echo(array_sum($arr)/$x);
+	echo round(array_sum($arr)/$x);
 	echo "<br>";
 	return $tampung;
 }
