@@ -8,11 +8,11 @@ function papan_catur($angka) {
 				echo " #";
 			}
 			elseif ($y%2==0 && $x%2 == 0) {
-				echo " g";
+				echo " #";
 			}
 			else{
-				echo " ";
-				echo " ";
+				echo "&nbsp;";
+				
 			}
 		}
 		echo "<br>";
